@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather forcast</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link  rel="stylesheet" href="cloud.png ">
+</head>
+<body>
+
+     <div class="firstpage">
+    <nav class="navigator">
+        <ul>
+            <li><a href ="index.html">Home</a></li>
+            <li><a href ="about.html">About</a></li>
+            <li><a href ="#">Contact</a></li>
+        </ul>
+    </nav>
+    <video class="earth" autoplay muted loop>
+        <source src="earth.mp4" type="video/mp4">
+        <source src="earth.mp4" type="video/webm">
+    </video>
+<div class="container">
+    <div class="mainbox">
+            <div class="searchbox">
+                <input type="text" placeholder="Enter the city">
+                <button ><i class="fa-solid fa-magnifying-glass"></i></button> 
+            </div>
+            <div class="weatherbox">
+                <div class="weather">
+                       <img src="cloud.png">
+                       <p class="temp">0<span>℃</span></p>
+                       <p class="desc">Broken Cloud</p>
+                </div>
+            </div>
+            <div class="weatherdetails">
+                <div class="humidity">
+                    <i class="fa-solid fa-water"></i>
+                    <div class="text">
+                        <div class="infohumidity">
+                            <span>0%</span>
+                        </div>
+                        <p>humidity</p>
+                    </div>
+                </div>
+                <div class="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="text">
+                        <div class="infowind">
+                            <span>0 Km/h</span>
+                        </div>
+                        <p>Wind</p>
+                    </div>
+                </div>
+            </div>
+            <div class="notfound">
+                <div class="box">
+                    <img src="404.png">
+                    <p>oops! location is not found!</p>
+                </div>
+            </div>
+    </div>
+</div>
+      <div class="secondpage">
+                <div class="days-forecast">
+                    <h2>5-DAYS FORCAST</h2>
+                <ul class="weather-card">
+                    <li class="card">
+                        <h3></h3>
+                        <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon">
+                        <h4>temperature:</h4>
+                        <h4>wind:</h4>
+                        <h4>Humidity:</h4>
+                    
+                    </li>
+                    <li class="card">
+                        <h3></h3>
+                        <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon">
+                        <h4>temperature:</h4>
+                        <h4>wind:</h4>
+                        <h4>Humidity:</h4>
+                    
+                    </li>
+                    <li class="card">
+                        <h3></h3>
+                        <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon">
+                        <h4>temperature:</h4>
+                        <h4>wind</h4>
+                        <h4>Humidity:</h4>
+                    
+                    </li>
+                    <li class="card">
+                        <h3></h3>
+                        <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon">
+                        <h4>temperature:</h4>
+                        <h4>wind</h4>
+                        <h4>Humidity:</h4>
+                    
+                    </li>
+                    <li class="card">
+                        <h3></h3>
+                        <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon">
+                        <h4>temperature:</h4>
+                        <h4>wind:</h4>
+                        <h4>Humidity:</h4>
+                    </li>
+                </ul>
+                   
+             </div>       
+         </div>
+    </div>
+</div>
+    <script src="forcast.js"></script>  
+</body>
+</html>
